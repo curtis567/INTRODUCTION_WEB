@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Curtis's Web</title>
+    <!--  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+    crossorigin=""/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="indexmenu">
+        <div class="Curtislogo">
+          <a href="#home" class="anchor"><h2>Home</h2></a>
+        </div>
+        <ul class="menu">
+          <li class="contact"><a href="#contact" class="anchor">CONTACT</a></li>
+          <li class="portfolio">
+            <a href="#portfolio" class="anchor">PORTFOLIO</a>
+          </li>
+          <li class="skill"><a href="#skill" class="anchor">SKILL</a></li>
+          <li class="about"><a href="#about" class="anchor">ABOUT</a></li>
+        </ul>
+      </div>
+      <div class="header" id="home">
+        <h1>Curtis Introduction</h1>
+        <div class="spacer1"></div>
+        <p><span class="blink_me"></span></p>
+        <div class="social-icon">
+          <a
+            href="https://www.facebook.com/ImCurtiszhan"
+            target="_blank"
+            class="fb"
+          >
+            <i class="fab fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/curtis-zhan-26bb47151/"
+            target="_blank"
+            class="linkedln"
+          >
+            <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/curtis567" target="_blank" class="github">
+            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="arrow-down">
+          <a href="#about" class="anchor">
+            <i class="fa fa-angle-double-down fa-4x" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+      <div class="arrow-up" style="display:none">
+        <a href="#home" class="anchor">
+          <i class="fas fa-arrow-alt-circle-up fa-4x" aria-hidden="true"></i>
+        </a>
+      </div>
+      <div class="personal-about" id="about">
+        <div class="main-content">
+          <h2>about</h2>
+          <div class="spacer"></div>
+        </div>
+
+        <div class="slider-wrap">
+          <div class="intro">
+            <p class="first-p">Hi, I am Curtis</p>
+            <p>I have experienced in Web Design for more than 1 years</p>
+            <p>I fell comfortable working in a team or individually and learning emerging technology.</p>
+            <div class="resume">
+              <a
+                href="https://github.com/curtis567/resume/blob/master/curtis%20zhan%20%E2%80%93%20resume.pdf"
+                target="_blank"
+                class="btn_resume"
+                >resume<i class="fas fa-link"></i>
+              </a>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-wrap" id="skill">
+        <div class="main-content">
+          <h2>skills</h2>
+          <div class="spacer3"></div>
+        </div>
+        <div class="contact-content2">
+          <ul id="bar">
+            <li id="barhtml">
+              <div class="top"><img src="img/html.png" alt="barhtml" /></div>
+              <div class="bottom">
+                <div class="infobox">
+                  <h3>HTML</h3>
+                  <p>Good / 70</p>
+                </div>
+              </div>
+            </li>
+            <li id="barcss">
+              <div class="top"><img src="img/css.png" alt="barcss" /></div>
+              <div class="bottom">
+                <div class="infobox">
+                  <h3>CSS</h3>
+                  <p>Not Bad / 60</p>
+                </div>
+              </div>
+            </li>
+            <li id="barjs">
+              <div class="top"><img src="img/JSjQ.png" alt="barjs" /></div>
+              <div class="bottom">
+                <div class="infobox">
+                  <h3>JavaScript&nbsp;/&nbsp;jQuery</h3>
+                  <p>Good / 75</p>
+                </div>
+              </div>
+            </li>
+            <li id="barVue">
+              <div class="top"><img src="img/VUE.png" alt="barVue" /></div>
+              <div class="bottom">
+                <div class="infobox">
+                  <h3>Vue.js</h3>
+                  <p>Not Bad / 60</p>
+                </div>
+              </div>
+            </li>
+            <li id="barjavac">
+              <div class="top"><img src="img/javac.png" alt="javac" /></div>
+              <div class="bottom">
+                <div class="infobox">
+                  <h3>java&nbsp;/&nbsp;C#</h3>
+                  <p>Good / 70</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="able">
+            <h4>knowledge</h4>
+            <p>
+              <span><i class="fa fa-check" aria-hidden="true"></i></span>
+              MySQL&nbsp;/&nbsp;MSSQL
+            </p>
+            <p>
+              <span><i class="fa fa-check" aria-hidden="true"></i></span> PHP +
+              Laravel
+            </p>
+            <p>
+              <span><i class="fa fa-check" aria-hidden="true"></i></span> axios
+              + RESTful API
+            </p>
+            <p>
+              <span><i class="fa fa-check" aria-hidden="true"></i></span> Vuex
+            </p>
+            <p>
+              <span><i class="fa fa-check" aria-hidden="true"></i></span> Sass
+            </p>
+            <p>
+              <span><i class="fa fa-check" aria-hidden="true"></i></span> Git
+            </p>
+          </div>
+          <div class="able">
+            <h4>language</h4>
+            <p>Chinese</p>
+            <div class="skill-bar">
+              <div class="skill-rate-1"></div>
+              <div class="skill-rate-2"></div>
+              <div class="skill-rate-3"></div>
+              <div class="skill-rate-4"></div>
+            </div>
+            <p>English</p>
+            <div class="skill-bar">
+              <div class="skill-rate-1"></div>
+              <div class="skill-rate-2"></div>
+              <div class="skill-rate-0"></div>
+              <div class="skill-rate-0"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-wrap" id="portfolio">
+        <div class="main-content">
+          <h2>portfolio</h2>
+          <div class="spacer4"></div>
+        </div>
+        <div class="portfoliocontent">
+          <div class="portfolio-content">
+            <div class="allportfolio">
+              <ul class="portfolio-list clearfix">
+                <li>
+                  <div class="portfol-box">
+                    <a id="demo01" href="#animatedModal">
+                      <div class="portfol-title">
+                        <div class="titlecenter">
+                          <h4>WEBSITE</h4>
+                          <p>個人簡介網站</p>
+                        </div>
+                      </div>
+                      <img src="img/bg_1.jpg" class="cover" alt="" />
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="portfol-box">
+                    <a id="demo02" href="#modal-02">
+                      <div class="portfol-title">
+                        <div class="titlecenter">
+                          <h4>WEBSITE</h4>
+                          <p>Laravel 網站</p>
+                        </div>
+                      </div>
+                      <img src="img/Laravel.jpg" class="cover" alt="" />
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="portfol-box">
+                    <a id="demo03" href="#modal-03">
+                      <div class="portfol-title">
+                        <div class="titlecenter">
+                          <h4>WEBSITE</h4>
+                          <p>Vue網站</p>
+                        </div>
+                      </div>
+                      <img src="img/bg_2.jpg" class="cover" alt="" />
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="portfol-box">
+                    <a id="demo04" href="#modal-04">
+                      <div class="portfol-title">
+                        <div class="titlecenter">
+                          <h4>WEBSITE</h4>
+                          <p>GPMS網站</p>
+                        </div>
+                      </div>
+                      <img src="img/GPMS.JPG" class="cover" alt="" />
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="portfol-box">
+                    <a id="demo05" href="#modal-05">
+                      <div class="portfol-title">
+                        <div class="titlecenter">
+                          <h4>WEBSITE</h4>
+                          <p>GP_report網站</p>
+                        </div>
+                      </div>
+                      <img src="img/gpweb.JPG" class="cover" alt="" />
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <div class="portfol-box">
+                    <a id="demo06" href="#modal-06">
+                      <div class="portfol-title">
+                        <div class="titlecenter">
+                          <h4>WEBSITE</h4>
+                          <p>BR_WEB網站</p>
+                        </div>
+                      </div>
+                      <img src="img/brweb.JPG" class="cover" alt="" />
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--第一個modal-->
+          <div id="animatedModal">
+            <div id="btn-close-modal" class="close-animatedModal"></div>
+            <div class="modal-content">
+              <p>WEBSITE</p>
+              <h3>個人簡介網站</h3>
+              <hr />
+              <div id="container2" class="innerbox">
+                  <p>
+                      <a href="javascript:;" target="_blank" class="btn_link">Link
+                      <i class="fa fa-link" aria-hidden="true"></i>
+                      </a>
+                      </p>
+                <img src="img/myweb-01.JPG" width="900" height="472" />
+                <img src="img/myweb-02.JPG" width="900" height="472" />
+                <img src="img/myweb-03.JPG" width="900" height="472" />
+                <img src="img/myweb-04.JPG" width="900" height="472" />
+                <img src="img/myweb-05.JPG" width="900" height="472" />
+              </div>
+            </div>
+          </div>
+          <!--第2個modal-->
+          <div id="modal-02">
+            <div id="btn-close-modal" class="close-modal-02"></div>
+            <div class="modal-content">
+              <p>WEBSITE</p>
+              <h3>Laravel 網站</h3>
+              <hr />
+              <div class="innerbox">
+                  <!--<p>
+                      <a href="https://github.com/curtis567/Laravel5.7" target="_blank" class="btn_link">Link
+                      <i class="fa fa-link" aria-hidden="true"></i>
+                      </a>
+                      </p>-->
+                <img src="img/Laravel-01.jpg" width="900" height="472"/>
+                <img src="img/Laravel-02.jpg" width="900" height="472"/>
+                <img src="img/Laravel-03.jpg" width="900" height="472"/>
+                <img src="img/Laravel-04.jpg" width="900" height="472"/>
+              </div>
+            </div>
+          </div>
+            <!--第3個modal-->
+            <div id="modal-03">
+                <div id="btn-close-modal" class="close-modal-03"></div>
+                <div class="modal-content">
+                  <p>WEBSITE</p>
+                  <h3>Vue.js + API 網站</h3>
+                  <hr />
+                  <div class="innerbox">
+                      <p>
+                          <a href="https://curtis567.github.io/watherAPI/opendata.html" target="_blank" class="btn_link">Link
+                          <i class="fa fa-link" aria-hidden="true"></i>
+                          </a>
+                          </p>
+                          <img src="img/vue_web-01.JPG" width="900" height="472"/>
+                          <img src="img/vue_web-02.JPG" width="900" height="472"/>
+                          <img src="img/vue_web-03.JPG" width="900" height="472"/></div>
+                </div>
+              </div>
+                <!--第4個modal-->
+          <div id="modal-04">
+              <div id="btn-close-modal" class="close-modal-04"></div>
+              <div class="modal-content">
+                <p>WEBSITE</p>
+                <h3>GPMS網站</h3>
+                <hr />
+                <div class="innerbox">
+                  <img src="img/GPMS-01.JPG" width="900" height="472" />
+                  <img src="img/GPMS-02.JPG" width="900" height="472" />
+                  <img src="img/GPMS-03.JPG" width="900" height="472" />
+                  <img src="img/GPMS-04.JPG" width="900" height="472" />
+                  <img src="img/GPMS-05.JPG" width="900" height="472" />
+                  <img src="img/GPMS-06.JPG" width="900" height="472" />
+                  <img src="img/GPMS-07.JPG" width="900" height="472" />
+                </div>
+              </div>
+            </div>
+              <!--第5個modal-->
+          <div id="modal-05">
+              <div id="btn-close-modal" class="close-modal-05"></div>
+              <div class="modal-content">
+                <p>WEBSITE</p>
+                <h3>GP_report網站</h3>
+                <hr />
+                <div class="innerbox_GPWeb">
+                  <img src="img/GP_WEB-01.JPG" />
+                  <img src="img/GP_WEB-02.JPG" />
+                  <img src="img/GP_WEB-03.JPG" />
+                  <img src="img/GP_WEB-04.JPG" />
+                </div>
+              </div>
+            </div>
+              <!--第6個modal-->
+          <div id="modal-06">
+              <div id="btn-close-modal" class="close-modal-06"></div>
+              <div class="modal-content">
+                <p>WEBSITE</p>
+                <h3>BR_WEB網站</h3>
+                <hr />
+                <div class="innerbox">
+                  <img src="img/brweb-01.JPG" width="900" height="472" />
+                  <img src="img/brweb-02.JPG" width="900" height="472" />
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="contact-wrap" id="contact">
+        <div class="main-content">
+          <h2>contact</h2>
+          <div class="spacer"></div>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-list">
+            <h4 class="contact-title">Please to contact me.</h4>
+            <p>
+              <span><i class="fas fa-location-arrow" aria-hidden="true"></i></span>
+              Taipei City, Taiwan
+            </p>
+            <p>
+              <span><i class="fas fa-mobile-alt" aria-hidden="true"></i></span> +886
+              908719101
+            </p>
+            <p>
+              <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+              eveny15467@gmail.com
+            </p> 
+          </div>
+           <div class="contact-map">
+              <div id="map"></div>
+          </div>
+          <div class="contact-form">
+            <form
+              action="MAILTO:eveny15467@gmail.com?subject=Hi! Curtis!"
+              method="post"
+              enctype="text/plain"
+            >
+              <input type="text" placeholder="Name" required name="name " />
+              <input
+                type="text"
+                placeholder="Your email"
+                required
+                name="email "
+              />
+              <textarea name="Message " id="" placeholder="Message"></textarea>
+              <div class="button-wrap">
+                <button class="btn send" type="send">
+                  <i class="far fa-envelope-open" aria-hidden="true"></i> &nbsp;send
+                </button>
+                <button class="btn pull-right reset" type="reset">
+                    <i class="fas fa-comment-slash" aria-hidden="true"></i> &nbsp;Reset</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="footer-social">
+            <p>&nbsp;</p>
+            <a href="https://www.facebook.com/ImCurtiszhan" target="_blank">
+              <i class="fab fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/curtis-zhan-26bb47151/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/curtis567" target="_blank">
+              <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+            </a>
+          </div>
+          <p>© Curtis All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+   integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+   crossorigin=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+    <script src="js/animatedModal.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
